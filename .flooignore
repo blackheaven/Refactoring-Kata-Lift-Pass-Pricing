@@ -1,5 +1,8 @@
-.idea
-.DS_Store
+extern
+node_modules
+tmp
+vendor
+.idea/
 target/
 dependency-reduced-pom.xml
 dockerfiles/run/**/*.lib
@@ -9,3 +12,6 @@ dockerfiles/run/**/glowroot
 .m2
 test-run.log
 build
+.git
+*.iml
+.attach_pid*
